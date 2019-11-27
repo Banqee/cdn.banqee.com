@@ -16541,8 +16541,10 @@ main {
     font-family: "Poppins", sans-serif;
     font-size: 0.9rem;
     font-weight: 700;
-    -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
-    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+ opacity 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+ opacity 0.3s ease-in-out;
     text-decoration: none;
     letter-spacing: 1px;
     padding: 1rem; }
@@ -19150,7 +19152,7 @@ section,
   border-radius: 100px;
   -webkit-transform: translate(80%, -30%) rotate(-35deg);
           transform: translate(80%, -30%) rotate(-35deg);
-  background-image: linear-gradient(45deg, #5533ff 40%, #506690 100%); }
+  background-image: linear-gradient(45deg, #01376b 40%, #506690 100%); }
   @media (min-width: 768px) {
     .app-landing-2-header .background-shape-main {
       height: 150%;
